@@ -1,0 +1,378 @@
+
+@media screen and (min-width:1199px){
+.timeline--owner .timeline-eventMarker {
+    background-color:red;
+    left: -31px;
+}
+.timeline-eventMarker {
+    display: block;
+    position: absolute;
+    right: -30px;
+    width: 16px;
+    height: 16px;
+    border-radius: 999em;
+}
+
+    .double-circles{
+        right:-37px;
+    }
+    .road-length{
+        height:1280px;
+    }
+}
+
+
+@media screen and (max-width:1199px){
+    .timeline--owner .timeline-eventMarker {
+    background-color: red;
+    left: -27px;
+}
+
+.timeline-eventMarker {
+    display: block;
+    position: absolute;
+    right: -27px;
+    width: 16px;
+    height: 16px;
+    border-radius: 999em;
+}
+ .double-circles{
+        right:-33px;
+    }
+ .road-length{
+        height:1400px;
+ }   
+}
+
+@media screen and (max-width:991px){
+    .timeline--owner .timeline-eventMarker {
+    background-color:red;
+    left: -21px;
+}
+.timeline-eventMarker {
+    display: block;
+    position: absolute;
+    right: -22px;
+    width: 16px;
+    height: 16px;
+    border-radius: 999em;
+}
+ .double-circles{
+        right:-28px;
+    }
+
+ .road-length{
+        height:1550px;
+ }  
+
+}
+
+@media screen and (max-width:767px){
+.timeline--owner .timeline-eventMarker {
+    background-color: red;
+    left: -21px;
+}
+.timeline-eventMarker {
+    display: block;
+    position: absolute;
+    right: -22px;
+    width: 16px;
+    height: 16px;
+    border-radius: 999em;
+}
+.double-circles{
+        right:-29px;
+    }
+
+    .road-length{
+        height:1760px;
+ }   
+}
+
+@media screen and (max-width:599px){
+.timeline--owner .timeline-eventMarker {
+    background-color: red;
+    left: -17px;
+}
+.timeline-eventMarker {
+    display: block;
+    position: absolute;
+    right: -19px;
+    width: 16px;
+    height: 16px;
+    border-radius: 999em;
+}
+.double-circles{
+        right:-27px;
+    }
+
+    .road-length{
+        height:2400px;
+ }   
+}
+
+@media screen and (max-width:479px){
+.timeline--owner .timeline-eventMarker {
+    background-color: red;
+    left: -16px;
+}
+.timeline-eventMarker {
+    display: block;
+    position: absolute;
+    right: -16px;
+    width: 16px;
+    height: 16px;
+    border-radius: 999em;
+}
+.double-circles{
+        right:-23px;
+    }
+
+    .road-length{
+        height:4200px;
+ } 
+}
+.interstitial--road {
+    /*height: 1280px;*/
+    background: #fff url(https://hawkins-staging.herokuapp.com/public/img/how_it_works/road.png) no-repeat 50%;
+    /* background-size: 41px 1578px; */
+    /* padding-top: 100px; */
+}
+
+.container--fluid {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.timeline--left {
+    float: left;
+    padding-right: 40px;
+}
+@media (min-width: 768px)
+.timeline {
+    width: 50%;
+}
+.timeline {
+    position: relative;
+}
+
+.u-alignCenter {
+    text-align: center;
+}
+.text--green {
+    color: gray;
+}
+
+
+
+
+.timeline--renter .timeline-eventMarker {
+    background-color: gray;
+}
+
+
+.timeline-eventTitle {
+    margin-bottom: 10px;
+}
+
+.subheader {
+    font-family: BasisBold, Avenir, Helvetica Neue, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.timeline-eventText {
+    margin-top: 10px;
+    line-height: 1.2;
+    color:gray;
+}
+
+
+.timeline--right {
+    float: right;
+    margin-top: 0;
+    padding-right: 40px;
+}
+
+
+
+.text--purple {
+    color: red;
+}
+.timeline {
+     width: 48%; 
+}
+
+
+
+
+.timeline--left .timeline-event {
+    right: 40px;
+}
+.timeline--renter .timeline-event {
+    border-color: gray;
+}
+.timeline-event--position0 {
+    top: 96px;
+}
+
+.timeline-event {
+  
+    left: 0;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    margin-top: 0;
+    padding: 15px;
+}
+.timeline-event {
+    margin-top: 20px;
+}
+
+
+
+
+.timeline-eventArrow {
+   display: block;
+    position: absolute;
+   
+    width: 9px;
+    height: 19px;
+}
+
+
+.eventMarker {
+    background-color: gray;
+}
+
+.timeline-eventMarker {
+    display: block;
+}
+
+
+
+.timeline-event--middle .timeline-eventArrow, .timeline-event--middle .timeline-eventMarker {
+    
+}
+.timeline--renter .timeline-eventArrow {
+    background: url(https://hawkins-staging.herokuapp.com/public/img/how_it_works/arrow_traveler.png) no-repeat 50%;
+    background-size: 9px 19px;
+    right: 33px;
+        margin-top: -15px
+}
+
+
+eventMarker {
+    background-color: gray;
+}
+
+
+
+.timeline--right .timeline-event {
+    left: 40px;
+}
+.timeline--owner .timeline-event {
+    border-color: red;
+}
+.timeline-event--position0 {
+    top: 96px;
+}
+
+.timeline--owner .timeline-eventArrow {
+    background: url(https://hawkins-staging.herokuapp.com/public/img/how_it_works/arrow_owner.png) no-repeat 50%;
+    background-size: 9px 19px;
+    left: 33px;
+    margin-top: -15px;
+}
+
+.timeline-eventArrow {
+    display: block;
+}
+.timeline-eventArrow {
+    /*display: none;*/
+    position: absolute;
+    /*top: 0;*/
+    width: 9px;
+    height: 19px;
+}
+
+.timeline-event--position0 {
+    margin-top: 96px;
+}
+.timeline-event--position2 {
+    margin-top: 178px;
+}
+
+.timeline-event--position5 {
+    margin-top: 108px;
+}
+
+.timeline-event--position6 {
+    /*top: 876px;*/
+}
+
+.timeline-event--position7 {
+    /*top: 1057px;*/
+    margin-top:61px;
+    background-color: #ffffff;
+    border-color: red
+}
+
+.timeline-event--position8 {
+    margin-top: 1126px;
+}
+
+
+.timeline--left .timeline-milestone {
+    right: -83px;
+}
+.timeline-event--position4 {
+    /*top: 620px;*/
+    margin-top:56px;
+    background-color: #ffffff;
+    border-color: red
+}
+
+.timeline-milestone {
+    display: inline-block;
+}
+.timeline-milestone {
+   
+    position: absolute;
+    width: 120px;
+    height: 35px;
+    line-height: 34px;
+    border: 2px solid red;
+    background-color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    z-index:1;
+}
+
+
+
+
+.timeline-event--position8 {
+    margin-top: 126px;
+}
+
+
+.timeline-eventMarker--renterAndOwner {
+    display: block;
+}
+.timeline-eventMarker--renterAndOwner {
+    display: block;
+    width: 28px;
+    height: 17px;
+    background: url(https://hawkins-staging.herokuapp.com/public/img/how_it_works/overlapping_green_purple_circles.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0 0;
+    
+    background-color: transparent!important;
+    border-radius: 0;
+    /*right: -37px;*/
+}
+

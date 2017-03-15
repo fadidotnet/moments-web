@@ -1,0 +1,11 @@
+/node_modules
+/public/storage
+/public/images/cars
+/public/images/users
+/public/media
+/vendor
+/.idea
+Homestead.json
+Homestead.yaml
+.env
+.env.production
